@@ -1,0 +1,33 @@
+.btn-buy{
+    height: 30px;
+    width: 80px;
+    border: none;
+    background-color: white;
+    color: brown;
+    border: 2px solid brown;
+    border-radius: 10px;
+    transition: 1s ease-in-out; 
+}
+.btn-chat{
+    height: 30px;
+    width: 80px;
+    border: none;
+    background-color: white;
+    color: green;
+    border: 2px solid rgba(0, 128, 0, 0.805);
+    border-radius: 10px;
+    transition: 1s ease-in-out; 
+}
+
+.btn-chat:hover{
+    background-color:rgba(0, 128, 0, 0.805) ; 
+    color: white;
+    transform: scale(1.1);
+    border: none;
+}
+.btn-buy:hover{
+    background-color:brown ; 
+    color: white;
+    transform: scale(1.1);
+    border: none;
+}
